@@ -1,0 +1,44 @@
+[debug] [2026-05-27T22:19:19.023Z] ----------------------------------------------------------------------
+[debug] [2026-05-27T22:19:19.029Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-05-27T22:19:19.030Z] CLI Version:   15.19.0
+[debug] [2026-05-27T22:19:19.030Z] Platform:      win32
+[debug] [2026-05-27T22:19:19.030Z] Node Version:  v22.14.0
+[debug] [2026-05-27T22:19:19.031Z] Time:          Thu May 28 2026 00:19:19 GMT+0200 (South Africa Standard Time)
+[debug] [2026-05-27T22:19:19.031Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Programming_projects\VibeCoding2026\bravo-agency
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-05-27T22:19:42.756Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-05-27T22:19:42.761Z] > authorizing via signed-in user (thato.dice@gmail.com)
+[debug] [2026-05-27T22:19:42.764Z] Checked if tokens are valid: true, expires at: 1779923939750
+[debug] [2026-05-27T22:19:42.764Z] Checked if tokens are valid: true, expires at: 1779923939750
+[debug] [2026-05-27T22:19:42.767Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2026-05-27T22:19:43.860Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2026-05-27T22:19:43.861Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] 
+=== Hosting Setup
+[debug] [2026-05-27T22:21:00.007Z] Checked if tokens are valid: true, expires at: 1779923939750
+[debug] [2026-05-27T22:21:00.008Z] Checked if tokens are valid: true, expires at: 1779923939750
+[debug] [2026-05-27T22:21:00.008Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bravo-agency-c1c89 [none]
+[debug] [2026-05-27T22:21:01.117Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bravo-agency-c1c89 200
+[debug] [2026-05-27T22:21:01.117Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bravo-agency-c1c89 {"projectId":"bravo-agency-c1c89","projectNumber":"62318584650","displayName":"Bravo-Agency","name":"projects/bravo-agency-c1c89","resources":{"hostingSite":"bravo-agency-c1c89"},"state":"ACTIVE","etag":"1_b41f03fd-2a5f-41fd-ad60-77972c903223"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
